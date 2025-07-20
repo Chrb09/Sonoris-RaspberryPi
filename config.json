@@ -1,0 +1,12 @@
+{
+  "fonte": "Inter",
+  "tamanho": 24,
+  "cor_texto": [1, 1, 1, 1],
+  "cor_fundo": [0, 0, 0, 1],
+  "velocidade": 10,
+  "espacamento": {
+    "horizontal": 5,
+    "vertical": 20,
+    "entre_paragrafos": 4
+  }
+}
