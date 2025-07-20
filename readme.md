@@ -1,0 +1,1 @@
+Repositório da aplicação em Python para o IoT da Sonoris
