@@ -1,12 +1,13 @@
 {
-  "fonte": "Inter",
-  "tamanho": 44,
-  "cor_texto": [1, 1, 1, 1],
-  "cor_fundo": [0, 0, 0, 1],
-  "velocidade": 10,
-  "espacamento": {
-    "horizontal": 5,
-    "vertical": 20,
-    "entre_paragrafos": 4
-  }
+  "model_path": "model",
+  "sample_rate": 16000,
+  "fonte": "Roboto",
+  "tamanho": 36,
+  "cor_fundo": [0.0, 0.0, 0.0, 1.0],
+  "cor_texto": [1.0, 1.0, 1.0, 1.0],
+  "device": null,
+  "blocksize": 1600,
+  "frame_ms": 30,
+  "use_vad": true,
+  "vad_mode": 2
 }

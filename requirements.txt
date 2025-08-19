@@ -1,4 +1,5 @@
-kivy
+numpy
 vosk
 sounddevice
-bleak
+kivy
+webrtcvad
