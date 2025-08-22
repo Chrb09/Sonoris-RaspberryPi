@@ -1,13 +1,9 @@
 {
-  "model_path": "model",
+  "model_path": "modelLarge",
   "sample_rate": 16000,
-  "fonte": "Roboto",
-  "tamanho": 36,
-  "cor_fundo": [0.0, 0.0, 0.0, 1.0],
-  "cor_texto": [1.0, 1.0, 1.0, 1.0],
+  "blocksize": 800,
   "device": null,
-  "blocksize": 1600,
-  "frame_ms": 30,
-  "use_vad": true,
-  "vad_mode": 2
+  "monitor_playback": true,
+  "monitor_device": null,
+  "monitor_seconds": 30
 }
