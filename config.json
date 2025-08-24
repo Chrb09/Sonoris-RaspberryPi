@@ -2,8 +2,14 @@
   "model_path": "modelLarge",
   "sample_rate": 16000,
   "blocksize": 800,
-  "device": null,
-  "monitor_playback": true,
-  "monitor_device": null,
-  "monitor_seconds": 30
+  "frame_ms": 30,
+  "use_vad": true,
+  "max_partial_chars": 240,
+  "partial_update_min_ms": 80,
+  "history_max_lines": 200,
+  "fonte": null,
+  "tamanho_parcial": 28,
+  "tamanho_historico": 20,
+  "cor_fundo": [0, 0, 0, 1],
+  "cor_texto": [1, 1, 1, 1]
 }

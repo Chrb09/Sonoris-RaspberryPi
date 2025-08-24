@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
-"""
-main_console_pi.py
-Console-only, low-latency Vosk transcription optimized for Raspberry Pi 3B.
-Features:
- - Minimal overhead (no GUI)
- - Optional webrtcvad integration (uses it only if installed)
- - Small queue with drop-old policy to avoid lag accumulation
- - Small blocksize and short frames for low latency
- - Reads configuration from config.json if present, otherwise uses sensible defaults
-"""
+
+# TODO: Arrumar o erro de quando chega no fim da linha a transcrição parcial
 
 import os
 import sys
@@ -42,8 +34,8 @@ if os.path.exists(CONFIG_PATH):
 else:
     cfg = {}
 
-# Defaults (tuned for low-latency on Pi 3)
-MODEL_PATH = cfg.get("model_path", "models/vosk-model-small-pt-0.3")
+# Defaults (tuned for low-latency on Pi 3)'
+MODEL_PATH = cfg.get("model_path", "model")
 SAMPLE_RATE = int(cfg.get("sample_rate", 16000))
 # blocksize: how many samples per sounddevice callback.
 # 1600 samples @16k = 100 ms. Use 800 for ~50ms if CPU allows.
